@@ -70,3 +70,56 @@ public class ATM_Simulation {
         sc.close();
     }
 }
+/*
+🖥 Sample Output (Successful Run)
+===== ATM MACHINE =====
+Enter your PIN: 1234
+
+===== ATM MENU =====
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Exit
+Enter your choice: 1
+Your Current Balance: ₹5000.0
+
+===== ATM MENU =====
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Exit
+Enter your choice: 2
+Enter amount to deposit: 2000
+Amount Deposited Successfully!
+
+===== ATM MENU =====
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Exit
+Enter your choice: 3
+Enter amount to withdraw: 1500
+Withdrawal Successful!
+
+===== ATM MENU =====
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Exit
+Enter your choice: 1
+Your Current Balance: ₹5500.0
+
+===== ATM MENU =====
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Exit
+Enter your choice: 4
+Thank you for using ATM 😊
+
+SAMPLE OUTPUT (WRONG PIN CASE)
+===== ATM MACHINE =====
+Enter your PIN: 1111
+Incorrect PIN! Try again.
+*/
+
