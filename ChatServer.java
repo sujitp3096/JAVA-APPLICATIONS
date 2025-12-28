@@ -14,7 +14,6 @@ public class ChatServer {
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 
             BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
-
             while (true) {
                 String clientMsg = in.readLine();
                 System.out.println("Client: " + clientMsg);
