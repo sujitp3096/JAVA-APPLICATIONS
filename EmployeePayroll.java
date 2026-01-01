@@ -13,6 +13,7 @@ class Employee {
     }
 
     void display() {
+        
         System.out.println("ID: " + id + " | Name: " + name + " | Salary: ₹" + salary);
     }
 }
@@ -47,4 +48,5 @@ public class EmployeePayroll {
         }
     }
 }
+
 
