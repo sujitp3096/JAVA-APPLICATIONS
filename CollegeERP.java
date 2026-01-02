@@ -9,7 +9,6 @@ class Student implements Serializable {
 
     Student(String id, String name, String branch) {
         this.id = id;
-        
         this.name = name;
         this.branch = branch;
     }
@@ -166,4 +165,5 @@ public class CollegeERP {
         } catch (Exception ignored) {}
     }
 }
+
 
