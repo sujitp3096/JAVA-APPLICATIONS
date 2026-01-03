@@ -19,7 +19,6 @@ class TemperatureSensor implements Sensor {
         return "Temperature Sensor";
     }
 }
-
 // ---------------- SMOKE SENSOR ----------------
 class SmokeSensor implements Sensor {
     private Random rand = new Random();
@@ -111,4 +110,5 @@ public class FireAlertSystem {
         }
     }
 }
+
 
