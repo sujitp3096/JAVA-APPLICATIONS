@@ -7,7 +7,6 @@ interface Sensor {
     double readValue();
     String getName();
 }
-
 // ---------------- TEMPERATURE SENSOR ----------------
 class TemperatureSensor implements Sensor {
     private Random rand = new Random();
@@ -112,3 +111,4 @@ public class FireAlertSystem {
         }
     }
 }
+
