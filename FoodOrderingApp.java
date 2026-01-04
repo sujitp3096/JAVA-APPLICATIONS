@@ -3,11 +3,9 @@ import java.util.*;
 public class FoodOrderingApp {
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         int choice, quantity;
         double totalBill = 0;
-
         // Menu with prices
         String[] items = {"Pizza", "Burger", "Pasta", "Fries", "Coffee"};
         double[] prices = {199, 99, 149, 79, 59};
@@ -46,3 +44,4 @@ public class FoodOrderingApp {
         sc.close();
     }
 }
+
