@@ -1,3 +1,5 @@
+
+
 import java.util.*;
 
 class Patient {
@@ -45,4 +47,5 @@ public class HospitalManagement {
         }
     }
 }
+
 
