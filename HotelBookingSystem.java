@@ -15,7 +15,6 @@ public class HotelBookingSystem {
         ArrayList<Room> rooms = new ArrayList<>();
 
         for (int i = 1; i <= 5; i++) rooms.add(new Room(i));
-
         while (true) {
             System.out.println("\n1. View Rooms  2. Book Room  3. Checkout  4. Exit");
             System.out.print("Enter choice: ");
@@ -51,4 +50,5 @@ public class HotelBookingSystem {
         }
     }
 }
+
 
