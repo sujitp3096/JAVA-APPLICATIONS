@@ -9,7 +9,6 @@ class Room {
         this.booked = false;
     }
 }
-
 public class HotelBookingSystem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -52,3 +51,4 @@ public class HotelBookingSystem {
         }
     }
 }
+
