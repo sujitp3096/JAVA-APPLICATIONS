@@ -11,7 +11,6 @@ public class InventoryManagement {
         };
         int[] weight = {10, 15, 5, 3, 20};     // Backpack weight
         int[] value = {60, 50, 30, 40, 80};   // Item usefulness
-
         int capacity = 25; // Backpack capacity
         int n = items.length;
 
@@ -56,4 +55,5 @@ public class InventoryManagement {
         System.out.println("Total Usefulness Value: " + totalValue);
     }
 }
+
 
