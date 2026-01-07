@@ -9,7 +9,6 @@ public class InventoryManagement {
                 "Magic Ring",
                 "Armor"
         };
-
         int[] weight = {10, 15, 5, 3, 20};     // Backpack weight
         int[] value = {60, 50, 30, 40, 80};   // Item usefulness
 
@@ -57,3 +56,4 @@ public class InventoryManagement {
         System.out.println("Total Usefulness Value: " + totalValue);
     }
 }
+
