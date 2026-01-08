@@ -8,7 +8,6 @@ public class MovieTicketBooking {
         String[] movies = {"1. Avatar 2", "2. KGF Chapter 2", "3. Spider-Man No Way Home"};
         int[] seats = {50, 40, 30};   // Available seats for each movie
         int pricePerTicket = 200;
-
         System.out.println("===== MOVIE TICKET BOOKING SYSTEM =====");
         System.out.println("Available Movies:");
 
@@ -52,4 +51,5 @@ public class MovieTicketBooking {
         sc.close();
     }
 }
+
 
