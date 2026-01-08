@@ -15,7 +15,6 @@ public class MovieTicketBooking {
         for (String m : movies) {
             System.out.println(m);
         }
-
         System.out.print("\nEnter Movie Number to Book: ");
         int choice = sc.nextInt();
 
@@ -53,3 +52,4 @@ public class MovieTicketBooking {
         sc.close();
     }
 }
+
