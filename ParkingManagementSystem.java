@@ -11,7 +11,6 @@ class ParkingSpot {
         this.vehicleNumber = "";
     }
 }
-
 public class ParkingManagementSystem {
     static Scanner sc = new Scanner(System.in);
     static ArrayList<ParkingSpot> parking = new ArrayList<>();
@@ -98,3 +97,4 @@ public class ParkingManagementSystem {
         }
     }
 }
+
