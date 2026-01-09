@@ -18,7 +18,6 @@ public class ParkingManagementSystem {
     public static void main(String[] args) {
         System.out.print("Enter number of parking spots: ");
         int n = sc.nextInt();
-
         for (int i = 1; i <= n; i++) {
             parking.add(new ParkingSpot(i));
         }
@@ -97,4 +96,5 @@ public class ParkingManagementSystem {
         }
     }
 }
+
 
