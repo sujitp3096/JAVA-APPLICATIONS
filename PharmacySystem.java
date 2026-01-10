@@ -8,7 +8,6 @@ class Medicine implements Serializable {
     int quantity;
     double price;
     LocalDate expiry;
-
     public Medicine(String id, String name, int quantity, double price, LocalDate expiry) {
         this.id = id;
         this.name = name;
@@ -184,3 +183,4 @@ public class PharmacySystem {
             System.out.println("No expired medicines.");
     }
 }
+
