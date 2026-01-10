@@ -26,7 +26,6 @@ class Medicine implements Serializable {
                 isExpired() ? " ❗(Expired)" : "");
     }
 }
-
 class PharmacyDatabase {
     private final String FILE = "medicines.dat";
 
@@ -183,4 +182,5 @@ public class PharmacySystem {
             System.out.println("No expired medicines.");
     }
 }
+
 
