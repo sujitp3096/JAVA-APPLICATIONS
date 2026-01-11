@@ -11,7 +11,6 @@ public class ProjectSelection {
                 "Cloud Migration",
                 "Data Analytics Tool"
         };
-
         int[] cost = {40, 60, 30, 50, 20};     // Investment required
         int[] profit = {100, 120, 90, 110, 70}; // Expected ROI
 
@@ -60,3 +59,4 @@ public class ProjectSelection {
         System.out.println("Total Expected Profit: $" + totalProfit);
     }
 }
+
