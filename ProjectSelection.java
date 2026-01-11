@@ -27,7 +27,8 @@ public class ProjectSelection {
                             dp[i - 1][b],
                             profit[i - 1] + dp[i - 1][b - cost[i - 1]]
                     );
-                } else {
+                } else 
+                {
                     dp[i][b] = dp[i - 1][b];
                 }
             }
@@ -59,4 +60,5 @@ public class ProjectSelection {
         System.out.println("Total Expected Profit: $" + totalProfit);
     }
 }
+
 
