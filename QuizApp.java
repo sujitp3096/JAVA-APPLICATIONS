@@ -11,7 +11,6 @@ public class QuizApp {
             "4) Which keyword is used to create objects?",
             "5) Which data type stores true/false?"
         };
-
         String[][] options = {
             {"A) Mumbai", "B) Delhi", "C) Kolkata", "D) Chennai"},
             {"A) Earth", "B) Jupiter", "C) Venus", "D) Mars"},
@@ -48,3 +47,4 @@ public class QuizApp {
         sc.close();
     }
 }
+
