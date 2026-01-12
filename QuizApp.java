@@ -40,11 +40,11 @@ public class QuizApp {
                 System.out.println("✘ Wrong! Correct answer is: " + answers[i] + "\n");
             }
         }
-
         System.out.println("=== Quiz Completed! ===");
         System.out.println("Your Score: " + score + " / " + questions.length);
 
         sc.close();
     }
 }
+
 
