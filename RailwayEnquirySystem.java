@@ -6,7 +6,6 @@ class Train {
     String source;
     String destination;
     String time;
-
     Train(int trainNumber, String trainName, String source, String destination, String time) {
         this.trainNumber = trainNumber;
         this.trainName = trainName;
@@ -105,3 +104,4 @@ public class RailwayEnquirySystem {
         }
     }
 }
+
