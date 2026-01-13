@@ -86,7 +86,6 @@ public class RailwayEnquirySystem {
                         System.out.println("No trains available for this route.");
                     }
                     break;
-
                 case 3:
                     System.out.println("\nAll Available Trains:");
                     for (Train t : trains) {
@@ -104,4 +103,5 @@ public class RailwayEnquirySystem {
         }
     }
 }
+
 
