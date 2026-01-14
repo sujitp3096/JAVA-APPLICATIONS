@@ -22,7 +22,6 @@ public class RecipeGenerator {
             "Pasta Alfredo",
             "Onion Pakoda"
         };
-
         System.out.println("---- Recipe Generator ----");
         System.out.println("Enter any ingredient:");
 
@@ -44,3 +43,4 @@ public class RecipeGenerator {
         sc.close();
     }
 }
+
