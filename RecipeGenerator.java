@@ -9,7 +9,6 @@ public class RecipeGenerator {
             "Tomato", "Potato", "Chicken", "Egg", "Rice", 
             "Milk", "Cheese", "Bread", "Pasta", "Onion"
         };
-
         String[] recipes = {
             "Tomato Soup",
             "Potato Fry",
@@ -43,4 +42,5 @@ public class RecipeGenerator {
         sc.close();
     }
 }
+
 
