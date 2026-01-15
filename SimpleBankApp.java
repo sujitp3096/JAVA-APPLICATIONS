@@ -13,7 +13,6 @@ class BankAccount {
         balance += amount;
         System.out.println("Deposited: " + amount);
     }
-
     void withdraw(double amount) {
         if (amount > balance)
             System.out.println("Insufficient Balance!");
@@ -58,3 +57,4 @@ public class SimpleBankApp {
         }
     }
 }
+
