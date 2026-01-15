@@ -21,7 +21,6 @@ class BankAccount {
             System.out.println("Withdrawn: " + amount);
         }
     }
-
     void displayBalance() {
         System.out.println("Account Holder: " + name);
         System.out.println("Balance: " + balance);
@@ -57,4 +56,5 @@ public class SimpleBankApp {
         }
     }
 }
+
 
