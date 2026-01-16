@@ -20,7 +20,6 @@ class TollRecord implements Serializable {
         System.out.println("Time: " + dateTime);
     }
 }
-
 public class TollBoothSystem {
 
     static final String FILE = "toll_records.db";
@@ -126,3 +125,4 @@ public class TollBoothSystem {
         } catch (Exception ignored) {}
     }
 }
+
