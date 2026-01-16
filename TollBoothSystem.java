@@ -11,7 +11,6 @@ class TollRecord implements Serializable {
         this.tollAmount = tollAmount;
         this.dateTime = dateTime;
     }
-
     void display() {
         System.out.println("\n--- Toll Receipt ---");
         System.out.println("Vehicle No: " + vehicleNo);
@@ -125,4 +124,5 @@ public class TollBoothSystem {
         } catch (Exception ignored) {}
     }
 }
+
 
