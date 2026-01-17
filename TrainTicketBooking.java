@@ -16,7 +16,6 @@ public class TrainTicketBooking {
         for (int i = 0; i < stations.length; i++) {
             System.out.println((i + 1) + ". " + stations[i] + " - Rs." + prices[i]);
         }
-        // Select source
         System.out.print("\nEnter your source station number: ");
         int src = sc.nextInt() - 1;
 
@@ -43,4 +42,5 @@ public class TrainTicketBooking {
         System.out.println("Ticket Booked Successfully!");
     }
 }
+
 
