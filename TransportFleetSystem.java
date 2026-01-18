@@ -23,7 +23,6 @@ class Vehicle implements Serializable {
         System.out.println("Maintenance Counter: " + maintenanceCounter + " km");
     }
 }
-
 public class TransportFleetSystem {
 
     static final String FILE = "fleet.db";
@@ -143,3 +142,4 @@ public class TransportFleetSystem {
         } catch (Exception ignored) {}
     }
 }
+
