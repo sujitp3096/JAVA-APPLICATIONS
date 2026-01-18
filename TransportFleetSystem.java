@@ -24,7 +24,6 @@ class Vehicle implements Serializable {
     }
 }
 public class TransportFleetSystem {
-
     static final String FILE = "fleet.db";
     static ArrayList<Vehicle> fleet = new ArrayList<>();
 
@@ -142,4 +141,5 @@ public class TransportFleetSystem {
         } catch (Exception ignored) {}
     }
 }
+
 
