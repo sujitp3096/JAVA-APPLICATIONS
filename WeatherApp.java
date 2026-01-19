@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class WeatherApp {
 
     public static void main(String[] args) {
-
         // Predefined weather data for popular cities
         HashMap<String, String> weatherData = new HashMap<>();
         weatherData.put("mumbai", "Temperature: 32°C, Humidity: 70%, Condition: Sunny");
@@ -30,3 +29,4 @@ public class WeatherApp {
         sc.close();
     }
 }
+
