@@ -11,8 +11,7 @@ public class WeatherApp {
         weatherData.put("pune", "Temperature: 26°C, Humidity: 55%, Condition: Partly Cloudy");
         weatherData.put("kolkata", "Temperature: 30°C, Humidity: 75%, Condition: Rainy");
         weatherData.put("bangalore", "Temperature: 22°C, Humidity: 50%, Condition: Cool Breeze");
-        weatherData.put("chennai", "Temperature: 34°C, Humidity: 80%, Condition: Hot & Humid");
-
+        weatherData.put("chennai", "Temperature: 34°C, Humidity: 80%, Condition: Hot & Humid");\
         Scanner sc = new Scanner(System.in);
 
         System.out.println("=== Simple Weather App ===");
@@ -29,4 +28,5 @@ public class WeatherApp {
         sc.close();
     }
 }
+
 
