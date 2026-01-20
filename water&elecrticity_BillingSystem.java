@@ -12,7 +12,6 @@ class Customer implements Serializable {
         this.name = name;
         this.address = address;
     }
-
     int calculateElectricityBill() {
         int u = electricityUnits;
         int bill = 0;
@@ -181,3 +180,4 @@ public class water&elecrticity_BillingSystem {
         } catch (Exception ignored) {}
     }
 }
+
