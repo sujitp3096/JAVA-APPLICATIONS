@@ -15,7 +15,6 @@ class Customer implements Serializable {
     int calculateElectricityBill() {
         int u = electricityUnits;
         int bill = 0;
-
         if (u <= 100) bill = u * 5;
         else if (u <= 300) bill = (100 * 5) + (u - 100) * 7;
         else bill = (100 * 5) + (200 * 7) + (u - 300) * 10;
@@ -180,4 +179,5 @@ public class water&elecrticity_BillingSystem {
         } catch (Exception ignored) {}
     }
 }
+
 
