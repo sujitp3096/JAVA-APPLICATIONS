@@ -8,7 +8,6 @@ public class ATM_Simulation {
         int userPin;
         double balance = 5000;   // Default balance
         int choice;
-
         System.out.println("===== ATM MACHINE =====");
 
         System.out.print("Enter your PIN: ");
@@ -121,5 +120,6 @@ SAMPLE OUTPUT (WRONG PIN CASE)
 Enter your PIN: 1111
 Incorrect PIN! Try again.
 */
+
 
 
