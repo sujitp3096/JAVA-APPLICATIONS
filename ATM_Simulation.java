@@ -64,7 +64,6 @@ public class ATM_Simulation {
                 default:
                     System.out.println("Invalid Option!");
             }
-
         } while (choice != 4);
 
         sc.close();
@@ -122,4 +121,5 @@ SAMPLE OUTPUT (WRONG PIN CASE)
 Enter your PIN: 1111
 Incorrect PIN! Try again.
 */
+
 
