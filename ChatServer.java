@@ -15,7 +15,6 @@ public class ChatServer {
             while (true) {
                 String clientMsg = in.readLine();
                 System.out.println("Client: " + clientMsg);
-
                 System.out.print("You: ");
                 String reply = keyboard.readLine();
                 out.println(reply);
