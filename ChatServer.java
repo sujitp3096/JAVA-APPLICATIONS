@@ -6,7 +6,6 @@ public class ChatServer {
         try {
             ServerSocket serverSocket = new ServerSocket(5000);
             System.out.println("Server started. Waiting for client...");
-
             Socket socket = serverSocket.accept();
             System.out.println("Client connected!");
 
