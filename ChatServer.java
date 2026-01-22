@@ -8,7 +8,6 @@ public class ChatServer {
             System.out.println("Server started. Waiting for client...");
             Socket socket = serverSocket.accept();
             System.out.println("Client connected!");
-
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 
