@@ -72,6 +72,7 @@ public class CollegeERP {
         System.out.println("Student added successfully!");
     }
 
+    
     static void markAttendance(Scanner sc) {
         System.out.print("Enter Student ID: ");
         String id = sc.nextLine();
@@ -164,6 +165,7 @@ public class CollegeERP {
         } catch (Exception ignored) {}
     }
 }
+
 
 
 
