@@ -12,7 +12,6 @@ class Student implements Serializable {
         this.name = name;
         this.branch = branch;
     }
-
     public void display() {
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
@@ -165,5 +164,6 @@ public class CollegeERP {
         } catch (Exception ignored) {}
     }
 }
+
 
 
