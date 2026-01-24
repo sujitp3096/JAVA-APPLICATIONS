@@ -11,7 +11,6 @@ class Employee {
         this.name = name;
         this.salary = salary;
     }
-
     void display() {
         
         System.out.println("ID: " + id + " | Name: " + name + " | Salary: ₹" + salary);
@@ -48,5 +47,6 @@ public class EmployeePayroll {
         }
     }
 }
+
 
 
