@@ -16,7 +16,6 @@ class Employee {
         System.out.println("ID: " + id + " | Name: " + name + " | Salary: ₹" + salary);
     }
 }
-
 public class EmployeePayroll {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -47,6 +46,7 @@ public class EmployeePayroll {
         }
     }
 }
+
 
 
 
