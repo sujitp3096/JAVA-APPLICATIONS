@@ -31,6 +31,7 @@ class SmokeSensor implements Sensor {
     }
 }
 
+
 // ---------------- ALERT EVENT ----------------
 class FireEvent implements Serializable {
     LocalDateTime time;
@@ -109,6 +110,7 @@ public class FireAlertSystem {
         }
     }
 }
+
 
 
 
