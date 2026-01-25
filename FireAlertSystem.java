@@ -26,7 +26,6 @@ class SmokeSensor implements Sensor {
     public double readValue() {
         return rand.nextDouble() * 100; // Smoke density %
     }
-
     public String getName() {
         return "Smoke Sensor";
     }
@@ -110,5 +109,6 @@ public class FireAlertSystem {
         }
     }
 }
+
 
 
