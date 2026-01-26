@@ -35,7 +35,6 @@ public class FoodOrderingApp {
                 System.out.println("Invalid choice! Please try again.");
             }
         }
-        
         System.out.println("\n====== ORDER SUMMARY ======");
         System.out.println("Total Bill: ₹" + totalBill);
         System.out.println("Thank you for ordering! Have a great day!");
@@ -43,6 +42,7 @@ public class FoodOrderingApp {
         sc.close();
     }
 }
+
 
 
 
