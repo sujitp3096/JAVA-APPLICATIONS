@@ -10,7 +10,6 @@ public class FoodOrderingApp {
         String[] items = {"Pizza", "Burger", "Pasta", "Fries", "Coffee"};
         double[] prices = {199, 99, 149, 79, 59};
         System.out.println("====== WELCOME TO FOOD ORDERING APP ======");
-    
         while (true) {
             System.out.println("\n----- MENU -----");
             for (int i = 0; i < items.length; i++) {
@@ -42,6 +41,7 @@ public class FoodOrderingApp {
         sc.close();
     }
 }
+
 
 
 
