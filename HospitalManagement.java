@@ -13,7 +13,7 @@ class Patient {
     }
 
     void display() {
-        System.out.println(id + " - " + name + " (" + disease + ")");
+        System.out.println(id + " - " + name + " (" + disease + ")")
     }
 }
 
@@ -47,5 +47,6 @@ public class HospitalManagement {
         }
     }
 }
+
 
 
