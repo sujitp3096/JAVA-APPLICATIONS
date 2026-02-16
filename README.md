@@ -10,4 +10,4 @@ This project simulates a real-world system using Java.
 2. Compile and run Main.java
 
 ## 📷 Screenshots
-(Add images here)
+
