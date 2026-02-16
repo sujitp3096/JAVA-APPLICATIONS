@@ -9,5 +9,4 @@ This project simulates a real-world system using Java.
 1. Clone repository
 2. Compile and run Main.java
 
-## 📷 Screenshots
 
